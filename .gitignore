@@ -1,0 +1,14 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/fkms
+/flyController/*.h264
+/flyController/*.h264
+/Debug
+/x64
+/fkms.sdf
+/Release
+/flyController/Release
+/flyController/x64
+/flyController/Debug

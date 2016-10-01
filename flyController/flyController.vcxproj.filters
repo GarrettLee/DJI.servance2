@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\fuzzy_pid_x">
+      <UniqueIdentifier>{72d1ea38-72ce-44ca-b621-08a0dafc0c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\fuzzy_pid_y">
+      <UniqueIdentifier>{e2e6590f-f4d5-45ad-b0a1-925faa294da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fuzzy_pid_x">
+      <UniqueIdentifier>{3a11bfb3-3c0b-4455-b206-979e4215f8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fuzzy_pid_y">
+      <UniqueIdentifier>{ddaf0f09-1e53-4e6b-9515-06b54560f5a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynaLnkQueue.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ElemType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fkms.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="globalVar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="H264Decoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sendBySocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\builtin_typeid_types.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fis.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_private.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_types.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\multiword_types.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_logging.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_mxclassid.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_nonfinite.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtGetInf.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtGetNaN.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtmodel.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_continuous.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_extmode.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_matlogging.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_solver.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtwtypes.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\simstruc_types.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sl_sample_time_defs.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sl_types_def.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sysran_types.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_grt_rtw\tmwtypes.h">
+      <Filter>头文件\fuzzy_pid_x</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\builtin_typeid_types.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_private.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_types.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\multiword_types.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rt_nonfinite.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetInf.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetNaN.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtmodel.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtwtypes.h">
+      <Filter>头文件\fuzzy_pid_y</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DynaLnkQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ElemType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fkms.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="H264Decoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sendBySocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fis.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fuzzyPIDController.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_data.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rt_logging.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rt_nonfinite.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rtGetInf.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rtGetNaN.c">
+      <Filter>源文件\fuzzy_pid_x</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis.c">
+      <Filter>源文件\fuzzy_pid_y</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_data.c">
+      <Filter>源文件\fuzzy_pid_y</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rt_nonfinite.c">
+      <Filter>源文件\fuzzy_pid_y</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetInf.c">
+      <Filter>源文件\fuzzy_pid_y</Filter>
+    </ClCompile>
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetNaN.c">
+      <Filter>源文件\fuzzy_pid_y</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

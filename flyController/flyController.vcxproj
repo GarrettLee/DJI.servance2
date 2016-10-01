@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynaLnkQueue.hpp" />
+    <ClInclude Include="ElemType.h" />
+    <ClInclude Include="fkms.h" />
+    <ClInclude Include="FlightControl.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\builtin_typeid_types.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_private.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_types.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\multiword_types.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetInf.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetNaN.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtmodel.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rtwtypes.h" />
+    <ClInclude Include="fuzzyPIDController_for_x_axis_grt_rtw\rt_nonfinite.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\builtin_typeid_types.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fis.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_private.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_types.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\multiword_types.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtGetInf.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtGetNaN.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtmodel.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtwtypes.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_continuous.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_extmode.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_matlogging.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rtw_solver.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_logging.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_mxclassid.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\rt_nonfinite.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\simstruc_types.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sl_sample_time_defs.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sl_types_def.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\sysran_types.h" />
+    <ClInclude Include="fuzzyPIDController_grt_rtw\tmwtypes.h" />
+    <ClInclude Include="globalVar.h" />
+    <ClInclude Include="H264Decoder.h" />
+    <ClInclude Include="sendBySocket.h" />
+    <ClInclude Include="SocketUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DynaLnkQueue.cpp" />
+    <ClCompile Include="ElemType.cpp" />
+    <ClCompile Include="fkms.cpp" />
+    <ClCompile Include="FlightControl.cpp" />
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis.c" />
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\fuzzyPIDController_for_x_axis_data.c" />
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetInf.c" />
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rtGetNaN.c" />
+    <ClCompile Include="fuzzyPIDController_for_x_axis_grt_rtw\rt_nonfinite.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fis.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fuzzyPIDController.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\fuzzyPIDController_data.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rtGetInf.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rtGetNaN.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rt_logging.c" />
+    <ClCompile Include="fuzzyPIDController_grt_rtw\rt_nonfinite.c" />
+    <ClCompile Include="H264Decoder.cpp" />
+    <ClCompile Include="sendBySocket.cpp" />
+    <ClCompile Include="SocketUtils.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C8681B0-DDFF-46F6-B5B5-C87DABAD21CB}</ProjectGuid>
+    <RootNamespace>flyController</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\include;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\lib;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\include;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\lib;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\include;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\include;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_grt_rtw;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\lib;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\include;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_grt_rtw;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\lib;C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\fkms\lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController\fuzzyPIDController_for_x_axis_grt_rtw;$(SourcePath)</SourcePath>
+    <LibraryWPath>C:\Users\garrett\Documents\Visual Studio 2013\Projects\fkms\flyController;$(LibraryWPath)</LibraryWPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2test.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>avutil.lib;swscale.lib;avcodec.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>avutil.lib;swscale.lib;avcodec.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies>avutil.lib;swscale.lib;avcodec.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
