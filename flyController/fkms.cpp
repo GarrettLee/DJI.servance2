@@ -88,14 +88,14 @@ int main(int argc, char* argv[]){
 	*/
 
 //启动飞行控制和云台控制线程，该线程工作方式是不断地和MATLAB端交换数据，并且根据MATLAB发来的误差进行PID控制
-//#if FLIGHT_CONTROL
+#if FLIGHT_CONTROL
 	HANDLE handleControl = CreateThread(NULL, 0, flightControlThread, NULL, 0, NULL);
 	if (NULL == handleControl)
 	{
 		std::cout << "Create Thread failed !" << std::endl;
 	}
 	CloseHandle(handleControl);
-//#endif
+#endif
 
 #if sendBySocket
 	HANDLE handlesend = CreateThread(NULL, 0, sendImageInQueue, NULL, 0, NULL);
