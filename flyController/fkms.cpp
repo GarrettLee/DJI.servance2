@@ -105,12 +105,12 @@ int main(int argc, char* argv[]){
 	}
 	CloseHandle(handlesend);
 
-	HANDLE handlewaitforphone = CreateThread(NULL, 0, waitAndHandlePhoneEvent, NULL, 0, NULL);
+	/*HANDLE handlewaitforphone = CreateThread(NULL, 0, waitAndHandlePhoneEvent, NULL, 0, NULL);
 	if (NULL == handlewaitforphone)
 	{
 		std::cout << "Create Thread failed !" << std::endl;
 	}
-	CloseHandle(handlewaitforphone);
+	CloseHandle(handlewaitforphone);*/
 #endif
 
 	//不断检测键盘和鼠标，如果删除这一部分代码会出现SDL窗口无法移动的问题
@@ -157,7 +157,7 @@ int main(int argc, char* argv[]){
 		}
 
 		event.key.keysym.sym = 0;
-
+		Sleep(100);
 	}
 
 	//等待解码线程结束

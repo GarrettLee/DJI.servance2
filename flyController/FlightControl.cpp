@@ -433,10 +433,8 @@ char u_cmd[] = { 0, 3, 2 };
 #endif
 
 DWORD WINAPI waitAndHandlePhoneEvent(LPVOID lpParameter){
-	while (1){
-		
-	}
-
+	
+	return 0;
 
 }
 

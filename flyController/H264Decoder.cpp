@@ -392,7 +392,7 @@ void onOneFrameDecoded(){
 	DWORD  dwWaitResult = WaitForSingleObject(		//WaitForSingleObject可以用来等待Event、Job、Memory resource notification、
 		//Mutex、Process、Semaphore、Thread、Waitable timer等对象的接收
 		rectMutex,    // handle to mutex
-		10);  // no time-out interval
+		0);  // no time-out interval
 	SDL_RenderDrawRect(sdlRenderer, &rect);
 	rect.h = 0;
 	rect.w = 0;
